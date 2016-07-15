@@ -1,9 +1,9 @@
 package pl.kbieron.iomerge.plugins.server.gesture;
 
+import com.github.krzychek.server.model.message.keyboard.BackBtnClick;
+import com.github.krzychek.server.model.message.keyboard.HomeBtnClick;
+import com.github.krzychek.server.model.message.keyboard.MenuBtnClick;
 import org.springframework.stereotype.Component;
-import pl.kbieron.iomerge.model.message.keyboard.BackBtnClick;
-import pl.kbieron.iomerge.model.message.keyboard.HomeBtnClick;
-import pl.kbieron.iomerge.model.message.keyboard.MenuBtnClick;
 
 import java.awt.Point;
 import java.util.ArrayList;

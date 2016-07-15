@@ -1,10 +1,10 @@
 package pl.kbieron.iomerge.plugins.server.gesture;
 
 
+import com.github.krzychek.server.api.network.MessageDispatcher;
 import org.pmw.tinylog.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import pl.kbieron.iomerge.server.api.network.MessageDispatcher;
 
 import javax.swing.Timer;
 

@@ -1,6 +1,6 @@
 package pl.kbieron.iomerge.plugins.server.gesture;
 
-import pl.kbieron.iomerge.model.message.Message;
+import com.github.krzychek.server.model.message.Message;
 
 import java.awt.Point;
 import java.util.List;

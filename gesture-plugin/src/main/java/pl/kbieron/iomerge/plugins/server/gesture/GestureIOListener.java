@@ -1,8 +1,8 @@
 package pl.kbieron.iomerge.plugins.server.gesture;
 
+import com.github.krzychek.server.api.movementReader.IOListenerAdapter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import pl.kbieron.iomerge.server.api.movementReader.IOListenerAdapter;
 
 import java.awt.event.MouseEvent;
 
