@@ -1,4 +1,4 @@
-package pl.kbieron.iomerge.plugins.server.gesture;
+package com.github.krzychek.iomerge.plugins.server.gestures;
 
 import com.github.krzychek.server.api.movementReader.IOListenerAdapter;
 import org.springframework.beans.factory.annotation.Autowired;

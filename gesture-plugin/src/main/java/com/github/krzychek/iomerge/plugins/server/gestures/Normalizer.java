@@ -1,4 +1,4 @@
-package pl.kbieron.iomerge.plugins.server.gesture;
+package com.github.krzychek.iomerge.plugins.server.gestures;
 
 import org.springframework.stereotype.Component;
 
@@ -7,10 +7,10 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
+import static com.github.krzychek.iomerge.plugins.server.gestures.Constants.MIN_POINTS;
+import static com.github.krzychek.iomerge.plugins.server.gestures.Constants.NORM_LENGTH;
+import static com.github.krzychek.iomerge.plugins.server.gestures.Constants.NORM_SIZE;
 import static java.awt.geom.Point2D.distance;
-import static pl.kbieron.iomerge.plugins.server.gesture.Constants.MIN_POINTS;
-import static pl.kbieron.iomerge.plugins.server.gesture.Constants.NORM_LENGTH;
-import static pl.kbieron.iomerge.plugins.server.gesture.Constants.NORM_SIZE;
 
 
 @Component

@@ -1,4 +1,4 @@
-package pl.kbieron.iomerge.plugins.server.gesture;
+package com.github.krzychek.iomerge.plugins.server.gestures;
 
 import com.github.krzychek.server.model.message.keyboard.BackBtnClick;
 import com.github.krzychek.server.model.message.keyboard.HomeBtnClick;
